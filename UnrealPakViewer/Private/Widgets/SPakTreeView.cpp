@@ -4,7 +4,7 @@
 //#include "EditorStyle.h"
 #include "Framework/Application/SlateApplication.h"
 #include "IPlatformFilePak.h"
-#include "Launch/Resources/Version.h"
+#include "Runtime/Launch/Resources/Version.h"
 #include "Misc/Guid.h"
 #include "Misc/Paths.h"
 #include "Styling/CoreStyle.h"

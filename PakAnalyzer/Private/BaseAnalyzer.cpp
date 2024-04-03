@@ -6,7 +6,7 @@
 #include "AssetRegistryState.h"
 #endif
 #include "Json.h"
-#include "Launch/Resources/Version.h"
+#include "Runtime/Launch/Resources/Version.h"
 #include "Misc/Base64.h"
 #include "Misc/FileHelper.h"
 #include "Misc/Paths.h"

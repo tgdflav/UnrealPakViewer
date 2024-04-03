@@ -233,8 +233,8 @@ struct FPackageStoreExportEntry
 {
 	FPackageStoreExportEntry(const FFilePackageStoreEntry& InEntry)
 		//: ExportBundlesSize(InEntry.ExportBundlesSize)
-		: ExportCount(InEntry.ExportCount)
-		, ExportBundleCount(InEntry.ExportBundleCount)
+		//: ExportCount(InEntry.ExportCount) // flavtodo
+		//, ExportBundleCount(InEntry.ExportBundleCount) // flavtodo
 		//, LoadOrder(InEntry.LoadOrder)
 		//, Pad(InEntry.Pad)
 	{

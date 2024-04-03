@@ -6,7 +6,6 @@
 #include "HAL/PlatformProcess.h"
 #include "HAL/RunnableThread.h"
 #include "IPlatformFilePak.h"
-#include "Launch/Resources/Version.h"
 #include "Misc/Compression.h"
 #include "Misc/Paths.h"
 #include "Misc/ScopeLock.h"

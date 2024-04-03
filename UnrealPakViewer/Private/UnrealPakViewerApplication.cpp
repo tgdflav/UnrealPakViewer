@@ -6,7 +6,7 @@
 #include "HAL/PlatformProcess.h"
 #include "HAL/PlatformTime.h"
 #include "Interfaces/IPluginManager.h"
-#include "Launch/Resources/Version.h"
+#include "Runtime/Launch/Resources/Version.h"
 #include "Modules/ModuleManager.h"
 #include "StandaloneRenderer.h"
 #include "Stats/Stats2.h"

@@ -8,7 +8,7 @@
 #include "Framework/MultiBox/MultiBoxBuilder.h"
 #include "HAL/PlatformApplicationMisc.h"
 #include "HAL/PlatformFile.h"
-#include "Launch/Resources/Version.h"
+#include "Runtime/Launch/Resources/Version.h"
 #include "Misc/DateTime.h"
 #include "Misc/MessageDialog.h"
 #include "Misc/Paths.h"

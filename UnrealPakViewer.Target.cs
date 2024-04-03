@@ -3,7 +3,6 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-[SupportedPlatforms(UnrealPlatformClass.Desktop)]
 public class UnrealPakViewerTarget : TargetRules
 {
     public UnrealPakViewerTarget(TargetInfo Target) : base(Target)
@@ -11,10 +10,10 @@ public class UnrealPakViewerTarget : TargetRules
         Type = TargetType.Program;
         LinkType = TargetLinkType.Monolithic;
         LaunchModuleName = "UnrealPakViewer";
-        SolutionDirectory = "ExternalPrograms";
-        DefaultBuildSettings = BuildSettingsVersion.V2;
+        //SolutionDirectory = "ExternalPrograms";
+		DefaultBuildSettings = BuildSettingsVersion.V4;
 
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		//ExtraModuleNames.Add("EditorStyle");
 
 		// Lean and mean
@@ -34,3 +33,27 @@ public class UnrealPakViewerTarget : TargetRules
 		GlobalDefinitions.Add(string.Format("UNREAL_PAK_VIEWER_VERSION=TEXT(\"{0}\")", "1.4"));
 	}
 }
+
+//bUseXGEController					= false;
+//bCompileFreeType					= false;
+//bLoggingToMemoryEnabled				= false;
+//bCompileWithAccessibilitySupport	= false;
+//bIncludePluginsForTargetPlatforms	= true;
+//bWithServerCode						= false;
+//bCompileNavmeshClusterLinks			= false;
+//bCompileNavmeshSegmentLinks			= false;
+//bCompileRecast						= false;
+//bCompileICU 						= false;
+//bWithLiveCoding						= false;
+//bBuildWithEditorOnlyData			= true;
+//bCompileAgainstApplicationCore		= true;
+//bUsesSlate							= false;
+//bIsBuildingConsoleApplication		= true;
+//
+//WindowsPlatform.bUseBundledDbgHelp = false;
+//WindowsPlatform.bPixProfilingEnabled = false;
+//WindowsPlatform.bMergeIdenticalCOMDATs = true;
+//WindowsPlatform.bStripUnreferencedSymbols = true;
+//
+//GlobalDefinitions.Add("UE_TRACE_ENABLED=1");
+//GlobalDefinitions.Add("UE_EXTERNAL_PROFILING_ENABLED=0");

@@ -1,7 +1,7 @@
 #include "SAssetSummaryView.h"
 
 //#include "EditorStyle.h"
-#include "Launch/Resources/Version.h"
+#include "Runtime/Launch/Resources/Version.h"
 #include "Widgets/Input/SComboBox.h"
 #include "Widgets/Layout/SBorder.h"
 #include "Widgets/Layout/SBox.h"
